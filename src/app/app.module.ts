@@ -1,12 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+import { ChartsModule } from 'ng2-charts';
+import { NgSelectModule } from '@ng-select/ng-select';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BarChartComponent } from './bar-chart/bar-chart.component';
-import { LineChartComponent } from './line-chart/line-chart.component';
-import { PieChartComponent } from './pie-chart/pie-chart.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { BarChartComponent } from './components/charts/bar-chart/bar-chart.component';
+import { LineChartComponent } from './components/charts/line-chart/line-chart.component';
+import { PieChartComponent } from './components/charts/pie-chart/pie-chart.component';
+import { NavBarComponent } from './components/navigation/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,11 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    ChartsModule,
+    NgSelectModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
