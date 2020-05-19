@@ -9,6 +9,7 @@ import * as pluginDataLabels from 'chartjs-plugin-datalabels';
   styleUrls: ['./pie-chart.component.scss']
 })
 export class PieChartComponent implements OnInit {
+  // Pie
   public pieChartOptions: ChartOptions = {
     responsive: true,
     legend: {
@@ -39,6 +40,7 @@ export class PieChartComponent implements OnInit {
   ngOnInit() {
   }
 
+  // events
   public chartClicked({ event, active }: { event: MouseEvent, active: {}[] }): void {
     console.log(event, active);
   }

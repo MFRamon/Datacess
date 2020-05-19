@@ -9,7 +9,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BarChartComponent } from './components/charts/bar-chart/bar-chart.component';
-import { LineChartComponent } from './components/charts/line-chart/line-chart.component';
 import { PieChartComponent } from './components/charts/pie-chart/pie-chart.component';
 import { NavBarComponent } from './components/navigation/nav-bar/nav-bar.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -19,7 +18,6 @@ import { CalculateComponent } from './pages/calculate/calculate.component';
   declarations: [
     AppComponent,
     BarChartComponent,
-    LineChartComponent,
     PieChartComponent,
     NavBarComponent,
     HomeComponent,
