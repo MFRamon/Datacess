@@ -12,8 +12,8 @@ import { BarChartComponent } from './components/charts/bar-chart/bar-chart.compo
 import { LineChartComponent } from './components/charts/line-chart/line-chart.component';
 import { PieChartComponent } from './components/charts/pie-chart/pie-chart.component';
 import { NavBarComponent } from './components/navigation/nav-bar/nav-bar.component';
-import { HomeComponent } from './home/home.component';
-import { CalculateComponent } from './calculate/calculate.component';
+import { HomeComponent } from './pages/home/home.component';
+import { CalculateComponent } from './pages/calculate/calculate.component';
 
 
 @NgModule({
