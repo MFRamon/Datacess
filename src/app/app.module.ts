@@ -12,10 +12,9 @@ import { BarChartComponent } from './components/charts/bar-chart/bar-chart.compo
 import { LineChartComponent } from './components/charts/line-chart/line-chart.component';
 import { PieChartComponent } from './components/charts/pie-chart/pie-chart.component';
 import { NavBarComponent } from './components/navigation/nav-bar/nav-bar.component';
-import { AcercaDeComponent } from './pages/acerca-de/acerca-de.component';
-import { HistogramaComponent } from './pages/histograma/histograma.component';
-import { InicioComponent } from './pages/inicio/inicio.component';
-import { Top5Component } from './pages/top5/top5.component';
+import { HomeComponent } from './home/home.component';
+import { CalculateComponent } from './calculate/calculate.component';
+
 
 @NgModule({
   declarations: [
@@ -24,10 +23,8 @@ import { Top5Component } from './pages/top5/top5.component';
     LineChartComponent,
     PieChartComponent,
     NavBarComponent,
-    AcercaDeComponent,
-    HistogramaComponent,
-    InicioComponent,
-    Top5Component
+    HomeComponent,
+    CalculateComponent
   ],
   imports: [
     BrowserModule,
